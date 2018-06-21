@@ -1,0 +1,61 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  background-color:#a6a6a6;
+}
+
+.cntrst {
+background-color: #24365C;
+border-radius: 10px;
+ }
+
+.hdr {
+background: linear-gradient(to right, #a6a6a6, #293752);
+float: right;
+text-align: center;
+color: #ffffff;
+height: 70%;
+width: 88.5%;
+box-sizing: border-box;
+/*border: 1px solid #ffffff;*/
+font-weight: Bold;
+font-size: 200%;
+padding-top: .25%;
+}
+
+.hidden{
+display: none;
+}
+
+#logo {
+float: left;
+background-color: #1e2127;
+}
+
+header {
+border-bottom-color: #1e2127;
+border-bottom-style: solid;
+}
+.main {
+width: 60%;
+margin: 0 auto;
+border-left: 5px solid *rgba(0, 0, 0, 0.5);
+-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, transparent), color-stop(0.5, grey), color-stop(0.5, grey), color-stop(1, transparent)) 0 100%;
+border-right: 5px solid #1e2127;
+-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, transparent), color-stop(0.5, grey), color-stop(0.5, grey), color-stop(1, transparent)) 0 100%;
+padding: 3% 5%;
+background-color: #E6E6FA;
+}
+
+footer {
+position:fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: white;
+text-align: center;
+/*position: absolute;*/
+/*height: 60px;*/
+/*line-height: 60px*/
+background: linear-gradient(to right, #293752, #a6a6a6);
+}
