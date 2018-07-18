@@ -2,9 +2,35 @@
 	<html lang="en">
 		<head>
 			<meta charset="utf-8">
+			<link href="lightbox.css" rel="stylesheet">
+			<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+			<link href="audioplayer.css" rel="stylesheet">
+			<!--<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+			<script src="jquery.js"></script>
+			<script src="audioplayer.js"></script>
+			<link href="https://vjs.zencdn.net/7.0.5/video-js.css" rel="stylesheet">
+
+       			
+			
 			<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link type="text/css" rel = "stylesheet" href="port.css">
 			<title>Ronan Mc Manus Portfolio</title>
 			
@@ -28,53 +54,67 @@
 				
 				
 			 		<div class="main">
-			  
+			  			<h2>Here are some audio recordings on which I play and/or sing:</h2>
+			  			
+			  			<p>I play Bass and sing with a Rhythm &amp; Blues band called "<a href="https://www.youtube.com/watch?v=SAjO6kDT9JU" target="_blank">Sidewalk Boogie</a>".
+			  			<br>
+			  			<br> 
+			  			Sidewalk Boogie are a 4 piece band consisting of Bass, Drums and two Guitars.
+			  			
+			  			The following recording is from a live gig in the Gallery Bar of the <a href="https://ardhowen.com/" target="_blank">Ardhowen Theatre Enniskillen</a>.
+			  			<br> 
+			  			<br>
+			  			For this gig we were joined on stage by Jeannie Munroe(Piano/Keyboard) and Geoff Ward(Sax &amp; Clarinet).  The song is an original
+			  			 composition of mine.</p>
+			  					
+			  					<audio src="./video/L_Rollin_Those_Eyes_Ardhowen.mp3" preload="auto" controls>
+			  					<!-- <source src="audio.wav" />
+								<source src="audio.mp3" />
+								<source src="audio.ogg" /> -->
+								</audio>
+			  			<p>I also play Double Bass and sing with a band called "Below The Line".
+			  			<br>
+			  			<br>
+			  			"Below The Line" are esentially a jazz band but we try and mix it up a litte.  The band have a core of Bass, Drums &amp; Violin, with a number of different Guitarists joining us on occasion.
+						<br>
+						<br>
+						The next track is a rough recording of the tune "Take 5" which was recorded at a rehearsal.		  			
+			  			</p>	  		  
+						
+						<audio src="./video/take5.mp3" preload="auto" controls>
+			  					<!-- <source src="audio.wav" />
+								<source src="audio.mp3" />
+								<source src="audio.ogg" /> -->
+								</audio>
+				   <p>I sometimes put a band together called "The Pickups". 
+				    The line-up can be different for every gig but has always included myself on Bass/Double Bass/ Vocals and Jim Bates on Drums/Vocals.
+				    <br>
+				    <br>
+				    Here is a video of "The Pickups" playing a cover of "Southern Man" by Neil Young.  The singer: Maurice P Collins.
+				</p>
+				<div class="vidWrapper">
+					<video id="my-video" class="video-js" controls preload="auto" width="800" height="264"
+ 						 poster="MY_VIDEO_POSTER.jpg" data-setup='{"fluid": true}'>
+    						<source src="./video/southern_man.mp4" type='video/mp4'>
+    						<!-- <source src="MY_VIDEO.webm" type='video/webm'>  -->
+    						<p class="vjs-no-js">
+      					To view this video please enable JavaScript, and consider upgrading to a web browser that
+      				<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    					</p>
+  					</video>
+  				</div>			
 				
-					<h3>Testing</h3>
-					<h1>Testing</h1>
-					<h2>Testing</h2>
-					<h4>Testing</h4>
-					
-										
-
-					<p>I might Stick a hidden h1 tag in the header for screen readers and SEO and leave the header as it is for visual display purposes.
-						Otherwise, I'll have to format/style the h1 tag to be smaller visually than the h2, h3 etc tags.  Or restyle the mark-up in the header.
-						Also I may make the footer sticky as opposed to fixed.</p>
-					<p>Maybe I should have started coding for mobile first</p>
-					
-					<p> Maybe use javascript to add pop up text to display info on the "web design 4 Everybody" link in the footer  and add a "back to top  <em>(href = "#")"</em> link <p>
-
-					<p>Need to sort out position and contrast issues with links and text in footer .</p>
-					<p>
-	Lorem. Ullamcorper ve, luctus vehicula commodo sollicitudin. Hac diam arcu enim et arcu porta, tortor sollicitudin potenti fringilla. Euismod, dolor. Eu, sociis senectus adipiscing ornare et nonummy pede. Habitasse etiam. In mollis metus nostra vulputate lobortis, eget vel. Tempor. A, ullamcorper per, sociis pretium viverra nisl risus risus, hac amet, tortor commodo. Dis risus dis nisl ac sollicitudin laoreet, cum erat placerat. Inceptos odio vehicula sollicitudin. Cursus ornare, gravida, id ve ante magna, eleifend neque. Nibh dignissim tempor, leo quis montes nonummy.
-</p>
-<p>
-	Nam enim lobortis per, morbi malesuada per, fusce porttitor suspendisse. Curae malesuada pharetra proin vulputate vivamus. Potenti. Praesent torquent, nullam libero justo vestibulum scelerisque aenean ad eget. Euismod conubia torquent dapibus magna nec. Eleifend semper, mollis enim habitasse congue parturient volutpat elit. Commodo nisi erat vestibulum. Viverra hac ante ut sollicitudin urna augue. Eni, augue, augue, laoreet penatibus, amet. Sagittis porta risus morbi. Non duis parturient id, nostra neque mi. Torquent velit aliquam felis amet rhoncus class netus fringilla urna. Dolor et convallis malesuada. Massa ante et accumsan egestas magna ante. Ultricies amet dictum parturient netus vivamus primis, ut mus vulputate. Eu metus. Augue. Aliquam. Enim posuere ut, magnis euismod montes ipsum commodo bibendum vitae etiam.
-</p>
-<p>
-	Lorem ipsum dolor sit. Viverra, leo pulvinar rhoncus, taciti mi massa. Est duis nascetur dui, velit tempor. Ac, phasellus scelerisque, curae tortor eu tempor in orci. Lectus eu. Elit, fusce id a diam ut velit. Tempus donec adipiscing vivamus pede nam sit consectetuer. Pellentesque. Mollis. Ornare, in mattis. Porttitor. Pede felis magnis lorem, cras laoreet. Metus tellus pellentesque. Nibh ante vel. Turpis convallis ad, condimentum erat, nostra, sapien facilisis senectus.
-</p>
-<p>
-	Cubilia odio pellentesque vestibulum. Consectetuer, rutrum class integer, quisque pretium eros enim elit primis, ad volutpat vel, sodales diam a massa ac diam interdum. Quam amet eget conubia. Habitasse ipsum, faucibus morbi nascetur netus consequat erat vel est consectetuer tempus ac. Nullam urna. Porta sapien tristique ac, habitasse donec nonummy, urna. Donec tincidunt. Per. Suspendisse orci, erat. Arcu facilisis cursus, ve sagittis est, justo porttitor vivamus sollicitudin platea neque. Tortor nibh ullamcorper feugiat pellentesque fermentum. Vestibulum parturient ad platea felis curabitur cras eget hac montes.
-</p>
-
-		</div>
-		 <div class ="main">
-		<p>This site was built as part of the Coursera<a href="https://www.coursera.org/specializations/web-design" target="_blank">Web Design For Everybody</a> Specialisation</p>
+				<p>Jim Bates is a prolific songwriter.  He has a lot of his own work available on his <a href=" https://www.youtube.com/channel/UCegRCRAYRTaCA2oNgYi2MLg/videos" target="_blank">YouTube</a> channel. Check him out.</p>
+			<br>
+			<br>
+			<p>More recently I have been  playing in a trio called "TroubleBass".  Unfortunately we have no footage or recordings available yet.</p>
+				
+		
+		 
+		<p>This site was built as part of the <a href="https://www.coursera.org/specializations/web-design" target="_blank">Coursera</a> Web Design For Everybody Specialisation</p>
 		</div>
 		<br class="cb">
 		<br>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -87,7 +127,18 @@
 				<span class="nxtline" >&copy; 2018 Ronan Mc Manus</span>
 			
 			</footer>
-			<script>
+			
+			
+		<script>
+		/* apply jquery plugin to audio element */
+		$( function() { $( 'audio' ).audioPlayer(); } );</script>		
+
+
+
+
+
+
+			<script>			
 			/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -98,6 +149,8 @@ function myFunction() {
     }
 }
 </script>
+<!--  video player  -->
+<script  src="https://vjs.zencdn.net/7.0.5/video.js"></script>
 		</body>
 	</html>
 	
